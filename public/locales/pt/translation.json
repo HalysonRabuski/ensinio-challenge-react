@@ -1,6 +1,29 @@
 {
   "menu": {
-    "solutions": "Soluções"
+    "solutions": "Soluções",
+    "prices": "Preços",
+    "academy": "Academy",
+    "blog": "Blog",
+    "contact": "Contato",
+    "signin": "Entrar",
+    "getstarted": "Começar agora"
   },
-  "title": "Douglas é um corno"
+  "solutions": {
+    "title": "SOLUÇÕES PRINCIPAIS",
+    "placeholder": "Crie uma Escola Online"
+  },
+  "banner": {
+    "platform": "PLATAFORMA ALL IN ONE",
+    "title": "Sua escola online poderosa e lucrativa",
+    "description": "Tenha sua própria escola online 100% white label com rede social, gamificação, clube de assinaturas, ecommerce e sistema EAD completo.",
+    "getstarted": "Começar agora",
+    "video": "ver vídeo"
+  },
+  "home": {
+    "details": "PENSAMOS EM CADA DETALHE",
+    "resources": "Conheça alguns dos nossos recursos",
+    "title": "Queremos que o aluno se sinta confortável enquanto aprende",
+    "available_resources": "Veja todos os outros recursos disponíveis para te ajudar",
+    "see_more": "ver mais"
+  }
 }

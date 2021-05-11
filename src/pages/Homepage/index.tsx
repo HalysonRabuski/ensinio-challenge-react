@@ -15,7 +15,7 @@ interface Item {
 }
 
 const Homepage: React.FC = () => {
-  const { i18n } = useTranslation()
+  const { t, i18n } = useTranslation()
   const [items, setItems] = useState<Item[]>([])
 
   async function handleRequest() {
@@ -34,14 +34,14 @@ const Homepage: React.FC = () => {
         <FlexDiv>
           <span>
             <hr className="purple line" />
-            <b className="purple"> PENSAMOS EM CADA DETALHE</b>
+            <b className="purple">{t('home.details')}</b>
           </span>
           <span className="left">
-            <p>Conheça alguns dos nossos recursos </p>
+            <p>{t('home.resources')}</p>
             <i> ⚡️</i>
           </span>
         </FlexDiv>
-        <h1>Queremos que o aluno se sinta confortável enquanto aprende</h1>
+        <h1>{t('home.title')}</h1>
         <ItemsDiv>
           {items.map((item) => (
             <ItemComponent
@@ -56,11 +56,11 @@ const Homepage: React.FC = () => {
           <i id="rocket">
             <Rocket />
           </i>
-          <b>Veja todos os outros recursos disponíveis para te ajudar</b>
+          <b>{t('home.available_resources')}</b>
           <div className="left">
             <a href="/#">
               <span>
-                <b>ver mais</b>
+                <b>{t('home.see_more')}</b>
                 <i id="arrow">
                   <Arrow />
                 </i>

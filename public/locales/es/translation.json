@@ -1,6 +1,29 @@
 {
   "menu": {
-    "solutions": "Soluciones"
+    "solutions": "Soluciones",
+    "prices": "Precios",
+    "academy": "Academia",
+    "blog": "Blog",
+    "contact": "Contacto",
+    "signin": "iniciar sesión",
+    "getstarted": "Empezar"
   },
-  "title": "Douglas es un cuerno"
+  "solutions": {
+    "title": "PRINCIPALES SOLUCIONES",
+    "placeholder": "Crea una escuela en línea"
+  },
+  "banner": {
+    "platform": "TODO EN UNA PLATAFORMA",
+    "title": "Tu escuela en línea poderosa y rentable",
+    "description": "Ten tu propia escuela online 100% white label con red social, gamificación, club de suscripción, ecommerce y completo sistema EAD.",
+    "getstarted": "Empezar",
+    "video": "ver video"
+  },
+  "home": {
+    "details": "PENSAMOS EN CADA DETALLE",
+    "resources": "Conoce algunos de nuestros recursos",
+    "title": "Queremos que el alumno se sienta cómodo mientras aprende",
+    "available_resources": "Vea todos los demás recursos disponibles para ayudarlo",
+    "see_more": "ver más"
+  }
 }

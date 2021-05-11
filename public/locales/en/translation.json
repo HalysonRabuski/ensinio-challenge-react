@@ -1,6 +1,29 @@
 {
   "menu": {
-    "solutions": "Solutions"
+    "solutions": "Solutions",
+    "prices": "Prices",
+    "academy": "Academy",
+    "blog": "Blog",
+    "contact": "Contact",
+    "signin": "Sign In",
+    "getstarted": "Get Started"
   },
-  "title": "Douglas is a cuck"
+  "solutions": {
+    "title": "MAIN SOLUTIONS",
+    "placeholder": "Create an Online School"
+  },
+  "banner": {
+    "platform": "ALL IN ONE PLATFORM",
+    "title": "Your powerful and profitable online school",
+    "description": "Have your own 100% white label online school with social network, gamification, subscription club, ecommerce and complete EAD system.",
+    "getstarted": "Get started",
+    "video": "see video"
+  },
+  "home": {
+    "details": "WE THINK ABOUT EVERY DETAIL",
+    "resources": "Meet some of our resources",
+    "title": "We want the student to feel comfortable while learning",
+    "available_resources": "See all other resources available to help you",
+    "see_more": "see more"
+  }
 }

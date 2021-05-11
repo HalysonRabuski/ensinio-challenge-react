@@ -11,6 +11,43 @@ export const TopMenuContainer = styled.div`
   align-items: center;
   z-index: 999;
 
+  #desktop {
+    display: flex;
+    align-items: center;
+  }
+
+  #menu {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    margin-right: 50px;
+    /* a {
+      position: absolute;
+    } */
+    .dropdown-item {
+      margin-right: 40px;
+    }
+
+    a svg {
+      margin-left: auto;
+      width: 20px;
+      height: 20px;
+      fill: white;
+    }
+  }
+
+  @media screen and (max-width: 1025px) {
+    #desktop {
+      display: none;
+    }
+  }
+
+  @media screen and (min-width: 1025px) {
+    #menu {
+      display: none;
+    }
+  }
+
   .logo {
     margin-left: 6vw;
   }
@@ -48,6 +85,9 @@ export const NavMenu = styled.nav`
     a {
       margin-right: 20px;
     }
+  }
+  @media screen and (max-width: 1025px) {
+    display: none;
   }
 `
 export const Divider = styled.hr`
