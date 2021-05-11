@@ -42,7 +42,7 @@ run a json-server to simulate api requisitions.
 
 it is important to run this command in order to test the application.
 
-**Note: if you dont have yarn or something goes wrong, run npx json-server -p 3333 -d 200 server.json instead**
+**Note: if you dont have yarn or something goes wrong, run npx json-server -p 3333 -d 200 db.json instead**
 
 ### `yarn test`
 
