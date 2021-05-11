@@ -36,4 +36,18 @@ export const LanguagesContainer = styled.div`
       position: absolute;
     }
   }
+
+  @media screen and (min-width: 1025px) and (max-width: 1075px) {
+    position: absolute;
+    width: 10vw;
+    right: 10%;
+    top: 5px;
+    /* left: 2%; */
+  }
+  @media screen and (min-width: 1075px) and (max-width: 1150px) {
+    position: absolute;
+    width: 10vw;
+    right: 10%;
+    top: 5px;
+  }
 `

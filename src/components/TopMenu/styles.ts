@@ -14,6 +14,12 @@ export const TopMenuContainer = styled.div`
   .logo {
     margin-left: 6vw;
   }
+
+  @media screen and (min-width: 1025px) and (max-width: 1430px) {
+    .logo {
+      margin-left: 30px;
+    }
+  }
 `
 export const LogoSvg = styled(Logo)`
   width: 158.71px;
@@ -35,6 +41,13 @@ export const NavMenu = styled.nav`
 
   a {
     margin-right: 40px;
+  }
+
+  @media screen and (min-width: 1025px) and (max-width: 1430px) {
+    margin-left: 8vw;
+    a {
+      margin-right: 20px;
+    }
   }
 `
 export const Divider = styled.hr`
@@ -83,6 +96,12 @@ export const RightMenuContainer = styled.nav`
 
   a {
     margin-right: 40px;
+  }
+  @media screen and (min-width: 1025px) and (max-width: 1430px) {
+    margin-left: 5%;
+    a {
+      margin-right: 20px;
+    }
   }
 `
 export const LoginButton = styled.div`
