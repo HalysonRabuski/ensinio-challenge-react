@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render card component with an image and texts as children 1`] = `
+<a
+  className="sc-bdnxRM lkgSmQ"
+  color="white"
+  data-testid="button-id"
+  width="160px"
+/>
+`;

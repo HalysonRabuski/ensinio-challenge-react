@@ -18,7 +18,7 @@ const Banner: React.FC = () => {
   const { t } = useTranslation()
 
   return (
-    <BannerContainer>
+    <BannerContainer data-testid="banner-id">
       <BgImage src={PlaylistBg} left="5%" top="5%" />
       <BgImage src={CertifiedBg} left="50%" top="10%" />
       <BgImage src={PlaylistBg} right="5%" top="5%" />

@@ -18,6 +18,7 @@ const TopMenu: React.FC<PropsWithChildren<ButtonProps>> = ({
   children,
 }) => (
   <Button
+    data-testid="button-id"
     width={width}
     padding={padding}
     color={color}

@@ -1,0 +1,86 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render card component with an image and texts as children 1`] = `
+<div
+  className="sc-gtsrHT gokNrE"
+  data-testid="banner-id"
+>
+  <img
+    className="sc-jSFjdj bCKpVP"
+    src="icon-playlists.svg"
+  />
+  <img
+    className="sc-jSFjdj hUUYXT"
+    src="icon-certified.svg"
+  />
+  <img
+    className="sc-jSFjdj dQZAET"
+    src="icon-playlists.svg"
+  />
+  <div
+    className="sc-dlnjwi fqJsdG"
+  >
+    <div
+      className="content"
+    >
+      <p>
+        <i>
+          <svg>
+            devices.svg
+          </svg>
+        </i>
+        banner.platform
+      </p>
+      <h1>
+        banner.title
+      </h1>
+      <p>
+        banner.description
+      </p>
+      <div
+        className="actions"
+      >
+        <a
+          className="sc-bdnxRM jUznVJ"
+          color="#130c25"
+          data-testid="button-id"
+          width="160px"
+        >
+          <b>
+            banner.getstarted
+          </b>
+        </a>
+        <a
+          href="/#"
+          id="video"
+        >
+          <i
+            id="play-icon"
+          >
+            <img
+              alt="play-icon"
+              src="play.png"
+            />
+          </i>
+          banner.video
+        </a>
+      </div>
+    </div>
+  </div>
+  <div
+    className="sc-hKFxyN dfxEbf"
+  >
+    <div
+      className="content"
+    >
+      <div
+        className="circle"
+      />
+      <img
+        className="sc-eCApnc hMuNWu"
+        src="ISTOCKPHOTO.png"
+      />
+    </div>
+  </div>
+</div>
+`;

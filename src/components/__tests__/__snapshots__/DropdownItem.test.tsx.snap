@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render card component with an image and texts as children 1`] = `
+<div
+  className="sc-bdnxRM cdUAXz"
+  data-testid="dropdown-id"
+>
+  <div
+    className="dropdown-item"
+  >
+    <a
+      onClick={[Function]}
+    >
+      test
+       
+      <span>
+         
+      </span>
+    </a>
+  </div>
+  <div
+    className="dropdown-content"
+  />
+</div>
+`;

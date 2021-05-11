@@ -23,7 +23,7 @@ import gamificationIcon from '../../assets/icons/icon-gamification.png'
 import appIcon from '../../assets/icons/icon-app.png'
 
 import Button from '../Button'
-import DropdownItem from '../DropDownItem'
+import DropdownItem from '../DropdownItem'
 import LanguageDropdown from '../LanguageDropdown'
 import HamburguerMenu from '../HamburguerMenu'
 

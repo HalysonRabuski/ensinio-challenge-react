@@ -17,7 +17,7 @@ const DropdownItem: React.FC<PropsWithChildren<DropdownItemProps>> = ({
   const [isOpen, setIsOpen] = useState(false)
 
   return (
-    <DropdownContainer>
+    <DropdownContainer data-testid="dropdown-id">
       <div className="dropdown-item">
         <a onClick={() => setIsOpen(!isOpen)}>
           {text} <span> {Icon}</span>
